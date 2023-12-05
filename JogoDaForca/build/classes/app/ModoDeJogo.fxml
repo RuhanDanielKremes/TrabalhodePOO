@@ -21,7 +21,7 @@
       <Label layoutX="25.0" layoutY="200.0" text="Nobody play this game --- 99pts" />
       <Label layoutX="25.0" layoutY="227.0" text="kauezito plays --- 24pts" />
       <Label layoutX="25.0" layoutY="257.0" text="Cristina --- 2pts" />
-      <Button layoutX="39.0" layoutY="293.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="125.0" text="SEE GLOBAL RANK" />
+      <Button layoutX="39.0" layoutY="293.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="125.0" text=" Classificação" />
       <ImageView fitHeight="107.0" fitWidth="217.0" layoutX="295.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../Downloads/abcdario.jpg" />
