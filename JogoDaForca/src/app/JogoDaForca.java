@@ -21,10 +21,10 @@ import javafx.fxml.FXMLLoader;
  * @author kaueq
  */
 public class JogoDaForca extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("teste.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("entrar.fxml"));
         
         Scene scene = new Scene(root, 300, 250);
         

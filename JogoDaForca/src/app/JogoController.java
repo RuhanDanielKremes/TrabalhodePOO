@@ -34,12 +34,12 @@ public class JogoController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
     // TODO
     } 
-    
+    /*
     @FXML
     private void enviar(ActionEvent event) {
         Resposta resposta1 = new Resposta();
         resposta1.setTentativa(palavra.getText());
         System.out.println(resposta1.verificaTentativa());   
     }
-        
+        */
 }

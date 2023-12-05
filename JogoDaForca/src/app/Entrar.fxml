@@ -15,7 +15,7 @@
       </Label>
       <TextField fx:id="usernameField" alignment="CENTER" layoutX="147.0" layoutY="47.0" promptText="Username" />
       <Button fx:id="iniciarjogo" alignment="CENTER" layoutX="100.0" layoutY="92.0" mnemonicParsing="false" onAction="#abrirmododejogo" text="INICIAR JOGO" />
-      <Button alignment="CENTER" layoutX="100.0" layoutY="130.0" mnemonicParsing="false" text="SCOREBOARD" />
-      <Button alignment="CENTER" layoutX="100.0" layoutY="168.0" mnemonicParsing="false" text="SAIR" />
+      <Button fx:id="classificacao" alignment="CENTER" layoutX="100.0" layoutY="130.0" mnemonicParsing="false" onAction="#abrirclassificacao" text="CLASSIFICAÇÃO" />
+      <Button fx:id="sair" alignment="CENTER" layoutX="100.0" layoutY="168.0" mnemonicParsing="false" onAction="#sair" text="SAIR" />
    </children>
 </AnchorPane>
