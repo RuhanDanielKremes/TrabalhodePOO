@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.JogoController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.JogoController">
    <children>
       <Label alignment="CENTER" layoutX="284.0" layoutY="37.0" prefHeight="52.0" prefWidth="158.0" text="DICA" />
       <Label layoutX="22.0" layoutY="346.0" text="Tentativa">
@@ -14,9 +14,9 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="124.0" layoutY="344.0" text="java" />
+      <TextField fx:id="chutar" layoutX="124.0" layoutY="344.0" />
       <Button fx:id="tentar" layoutX="300.0" layoutY="344.0" mnemonicParsing="false" onAction="#verificarPalavra" text="Tentar" />
-      <TextField alignment="BOTTOM_CENTER" layoutX="19.0" layoutY="221.0" prefHeight="101.0" prefWidth="575.0" text="_ _ _ _ _ _ _ _ _">
+      <TextField fx:id="checkbox" alignment="BOTTOM_CENTER" layoutX="19.0" layoutY="221.0" prefHeight="101.0" prefWidth="575.0">
          <font>
             <Font size="36.0" />
          </font>

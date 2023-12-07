@@ -10,7 +10,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import app.*;
 import javafx.event.ActionEvent;
 
 /**
@@ -23,16 +22,29 @@ public class JogoController implements Initializable {
     @FXML
     private Button tentar;
     @FXML
-    private TextField letra;
+    private TextField checkbox;
     @FXML
-    private TextField palavra;
+    private TextField chutar;
 
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-    // TODO
+    // TODO    
+        Processador jogo1 = new Processador(1, "rabisco".toUpperCase());
+        checkbox.setText(jogo1.visor());
+        tentar.setOnAction(e -> {
+            jogo1.tentativa(chutar.getText());
+        });
+        
+        
+
+    }
+
+    
+        //scanner.close();
+        //System.out.println(jogo1.visor());
     } 
     /*
     @FXML
@@ -42,4 +54,14 @@ public class JogoController implements Initializable {
         System.out.println(resposta1.verificaTentativa());   
     }
         */
-}
+
+//    @FXML
+//    private void verificarPalavra(ActionEvent event) {
+//        jogo1.tentativa(scanner.nextLine().toUpperCase());
+//    }
+    
+//    public void mudarTexto(ActionEvent event) {
+//        checkbox.setText("Novo Texto");
+//    }
+    
+//}

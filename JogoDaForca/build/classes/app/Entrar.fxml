@@ -6,16 +6,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.EntrarController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.EntrarController">
    <children>
-      <Label alignment="TOP_LEFT" layoutX="19.0" layoutY="45.0" text="Jogo Da Forca" textFill="#0873f5">
+      <Label alignment="CENTER" layoutX="129.0" layoutY="27.0" prefHeight="57.0" prefWidth="334.0" text="Jogo Da Forca" textAlignment="CENTER" textFill="#0873f5">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial Black" size="36.0" />
          </font>
       </Label>
-      <TextField fx:id="usernameField" alignment="CENTER" layoutX="147.0" layoutY="47.0" promptText="Username" />
-      <Button fx:id="iniciarjogo" alignment="CENTER" layoutX="100.0" layoutY="92.0" mnemonicParsing="false" onAction="#abrirmododejogo" text="INICIAR JOGO" />
-      <Button fx:id="classificacao" alignment="CENTER" layoutX="100.0" layoutY="130.0" mnemonicParsing="false" onAction="#abrirclassificacao" text="CLASSIFICAÇÃO" />
-      <Button fx:id="sair" alignment="CENTER" layoutX="100.0" layoutY="168.0" mnemonicParsing="false" onAction="#sair" text="SAIR" />
+      <TextField fx:id="usernameField" alignment="CENTER" layoutX="205.0" layoutY="92.0" prefHeight="64.0" prefWidth="188.0" promptText="Username" />
+      <Button fx:id="iniciarjogo" alignment="CENTER" layoutX="230.0" layoutY="188.0" mnemonicParsing="false" onAction="#abrirmododejogo" prefHeight="39.0" prefWidth="139.0" text="INICIAR JOGO" />
+      <Button fx:id="classificacao" alignment="CENTER" layoutX="229.0" layoutY="252.0" mnemonicParsing="false" onAction="#abrirclassificacao" prefHeight="39.0" prefWidth="139.0" text="CLASSIFICAÇÃO" />
+      <Button fx:id="sair" alignment="CENTER" layoutX="230.0" layoutY="310.0" mnemonicParsing="false" onAction="#sair" prefHeight="39.0" prefWidth="139.0" text="SAIR" />
    </children>
 </AnchorPane>

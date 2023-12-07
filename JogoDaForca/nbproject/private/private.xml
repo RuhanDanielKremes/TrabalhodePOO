@@ -3,16 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/app/teste.fxml</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/tela/Jogo.fxml</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/controle/JogoController.java</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/tela/Entrar.fxml</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/tela/telas.css</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/app/JogoDaForca.java</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/tela/ModoDeJogo.fxml</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/controle/TelaPrincipalController.java</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/tela/Scoreboard.fxml</file>
-            <file>file:/C:/Users/kaueq/Documents/NetBeansProjects/JogoDaForca/src/app/Resposta.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/EntrarController.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/Jogo.fxml</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/ScoreboardController.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/JogoController.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/Resposta.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/ModoDeJogo.fxml</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/Processador.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/BancoETabelas.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/TesteMain.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/JogoDaForca.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/Entrar.fxml</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/ModoDeJogoController.java</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/Scoreboard.fxml</file>
+            <file>file:/C:/Users/kaueq/Documents/GitHub/TrabalhodePOO/JogoDaForca/src/app/NewClass.java</file>
         </group>
     </open-files>
 </project-private>
