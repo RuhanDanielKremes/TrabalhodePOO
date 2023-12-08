@@ -24,7 +24,7 @@ public class JogoDaForca extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("entrar.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("./telas/Entrar.fxml"));
         
         Scene scene = new Scene(root);
         

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.EntrarController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EntrarController">
    <children>
       <Label alignment="CENTER" layoutX="129.0" layoutY="27.0" prefHeight="57.0" prefWidth="334.0" text="Jogo Da Forca" textAlignment="CENTER" textFill="#0873f5">
          <font>

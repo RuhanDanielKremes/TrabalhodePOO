@@ -39,7 +39,7 @@ public class Banco {
 
         try {
             stat.executeUpdate("CREATE TABLE Usuario (idUsuario SERIAL PRIMARY KEY NOT NULL, nome VARCHAR(50), pontuacao integer)");
-
+            
             stat.executeUpdate("CREATE TABLE Jogos (idJogos SERIAL PRIMARY KEY NOT NULL, tentativa VARCHAR(50))");
 
             System.out.println("Banco criado com sucesso!");

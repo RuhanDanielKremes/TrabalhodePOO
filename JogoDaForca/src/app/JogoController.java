@@ -42,12 +42,12 @@ public class JogoController implements Initializable {
     @FXML
     private Label vitoria;
     
-    Image img0 = new Image(getClass().getResourceAsStream("0.jpeg"));
-    Image img1 = new Image(getClass().getResourceAsStream("1.jpeg"));
-    Image img2 = new Image(getClass().getResourceAsStream("2.jpeg"));
-    Image img3 = new Image(getClass().getResourceAsStream("3.jpeg"));
-    Image img4 = new Image(getClass().getResourceAsStream("4.jpeg"));
-    Image img5 = new Image(getClass().getResourceAsStream("5.jpeg"));
+    Image img0 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/0.jpeg"));
+    Image img1 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/1.jpeg"));
+    Image img2 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/2.jpeg"));
+    Image img3 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/3.jpeg"));
+    Image img4 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/4.jpeg"));
+    Image img5 = new Image(getClass().getClassLoader().getResourceAsStream("./Imagemjogo/5.jpeg"));
     
     
    
